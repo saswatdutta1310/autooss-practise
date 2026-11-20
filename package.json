@@ -1,0 +1,18 @@
+{
+  "name": "autooss-practice",
+  "version": "1.0.0",
+  "description": "Practice repository for AutoOSS autonomous agent",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
+  }
+}
